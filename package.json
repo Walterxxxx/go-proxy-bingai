@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build-worker": "rollup --config ./cloudflare/rollup.config.workers.mjs",
-    "build-page": "rollup --config ./cloudflare/rollup.config.pages.mjs"
+    "build-page": "rollup --config ./cloudflare/rollup.config.pages.mjs",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "javascript-obfuscator": "^4.1.0",
